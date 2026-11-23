@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "run_id": "20261120_134307_395601",
+  "python": "3.11.1",
+  "pyspark": "3.5.5",
+  "delta_spark": "3.3.2",
+  "storage_directory": "C:\\Users\\abdal\\IDS-project\\big_data\\storage\\20261120_134307_395601",
+  "verification": "Column names/types, counts, and bidirectional exceptAll. Duplicate multiplicities are preserved.",
+  "datasets": [
+    {
+      "dataset": "train",
+      "source": "C:\\Users\\abdal\\IDS-project\\data\\raw\\UNSW_NB15_training-set.csv",
+      "source_bytes": 32293018,
+      "records": 175341,
+      "columns": 45,
+      "class_counts": [
+        {
+          "label": 0,
+          "count": 56000
+        },
+        {
+          "label": 1,
+          "count": 119341
+        }
+      ],
+      "formats": [
+        {
+          "format": "parquet",
+          "path": "C:\\Users\\abdal\\IDS-project\\big_data\\storage\\20261120_134307_395601\\train\\parquet",
+          "records": 175341,
+          "missing_rows": 0,
+          "extra_rows": 0,
+          "verified": true
+        },
+        {
+          "format": "delta",
+          "path": "C:\\Users\\abdal\\IDS-project\\big_data\\storage\\20261120_134307_395601\\train\\delta",
+          "records": 175341,
+          "missing_rows": 0,
+          "extra_rows": 0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "dataset": "test",
+      "source": "C:\\Users\\abdal\\IDS-project\\data\\raw\\UNSW_NB15_testing-set.csv",
+      "source_bytes": 15380800,
+      "records": 82332,
+      "columns": 45,
+      "class_counts": [
+        {
+          "label": 0,
+          "count": 37000
+        },
+        {
+          "label": 1,
+          "count": 45332
+        }
+      ],
+      "formats": [
+        {
+          "format": "parquet",
+          "path": "C:\\Users\\abdal\\IDS-project\\big_data\\storage\\20261120_134307_395601\\test\\parquet",
+          "records": 82332,
+          "missing_rows": 0,
+          "extra_rows": 0,
+          "verified": true
+        },
+        {
+          "format": "delta",
+          "path": "C:\\Users\\abdal\\IDS-project\\big_data\\storage\\20261120_134307_395601\\test\\delta",
+          "records": 82332,
+          "missing_rows": 0,
+          "extra_rows": 0,
+          "verified": true
+        }
+      ]
+    }
+  ]
+}

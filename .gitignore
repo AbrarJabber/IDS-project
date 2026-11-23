@@ -1,0 +1,43 @@
+
+# ====================================
+# Python Virtual Environments
+# ====================================
+.venv/
+.venv311/
+.venv-dl/
+venv-dl/
+venv/
+__pycache__/
+*.pyc
+
+# ====================================
+# Deep Learning
+# ====================================
+deep_learning/
+deeplearning/
+deep-learning/
+
+# Deep Learning Model Files
+*.h5
+*.keras
+*.pt
+*.pth
+
+# ====================================
+# UNSW-NB15 Datasets
+# ====================================
+data/
+dataset/
+datasets/
+UNSW-NB15*.csv
+
+
+
+
+# ====================================
+# Temporary Files and Secrets
+# ====================================
+*.log
+.env
+.env.*
+.DS_Store

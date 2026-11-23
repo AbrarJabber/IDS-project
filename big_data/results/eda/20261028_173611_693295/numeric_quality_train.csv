@@ -1,0 +1,6 @@
+dataset,feature,invalid_cast,nan,infinite,negative
+train,dur,0,0,0,0
+train,sbytes,0,0,0,0
+train,dbytes,0,0,0,0
+train,spkts,0,0,0,0
+train,dpkts,0,0,0,0

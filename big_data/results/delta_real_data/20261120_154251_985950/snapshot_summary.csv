@@ -1,0 +1,4 @@
+snapshot,version,records,normal,attack,total_source_bytes,total_destination_bytes
+version_0_initial,0,1000,1000,0,1899078,6807570
+version_1_after_append,1,1250,1250,0,2563122,14458374
+version_0_recovered_after_append,0,1000,1000,0,1899078,6807570

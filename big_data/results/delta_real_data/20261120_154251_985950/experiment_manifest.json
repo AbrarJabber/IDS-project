@@ -1,0 +1,94 @@
+{
+  "status": "passed",
+  "run_id": "20261120_154251_985950",
+  "created_utc": "2026-11-20T12:42:51.985950+00:00",
+  "source": "C:\\Users\\abdal\\IDS-project\\data\\raw\\UNSW_NB15_training-set.csv",
+  "source_bytes": 32293018,
+  "source_role": "official training split (not the full original collection)",
+  "table_path": "C:\\Users\\abdal\\IDS-project\\big_data\\storage_delta_history\\20261120_154251_985950\\unsw_history_demo",
+  "table_uri": "file:///C:/Users/abdal/IDS-project/big_data/storage_delta_history/20261120_154251_985950/unsw_history_demo",
+  "results_directory": "C:\\Users\\abdal\\IDS-project\\big_data\\results\\delta_real_data\\20261120_154251_985950",
+  "python_version": "3.11.1",
+  "pyspark_version": "3.5.5",
+  "delta_spark_version": "3.3.2",
+  "initial_rows_requested": 1000,
+  "append_rows_requested": 250,
+  "method": "Select the first N original records by ascending id; write the first batch to Delta version 0 and append the second batch as version 1; check every value using bidirectional exceptAll and re-read version 0 after the append.",
+  "cautions": [
+    "The actual UNSW-NB15 records come from the official training CSV.",
+    "No fabricated records, updates, overwrites or deletions.",
+    "Single local Spark session; no multi-node scalability claim.",
+    "This is not a write-performance or ingest-throughput benchmark.",
+    "Historical reads require previous data files to be retained; do not VACUUM this table before inspecting old versions."
+  ],
+  "spark_version": "3.5.5",
+  "spark_master": "local[2]",
+  "source_records": 175341,
+  "source_columns": 45,
+  "completed_utc": "2026-11-20T12:43:26.822535+00:00",
+  "observed_snapshots": [
+    {
+      "snapshot": "version_0_initial",
+      "version": 0,
+      "records": 1000,
+      "normal": 1000,
+      "attack": 0,
+      "total_source_bytes": 1899078,
+      "total_destination_bytes": 6807570
+    },
+    {
+      "snapshot": "version_1_after_append",
+      "version": 1,
+      "records": 1250,
+      "normal": 1250,
+      "attack": 0,
+      "total_source_bytes": 2563122,
+      "total_destination_bytes": 14458374
+    },
+    {
+      "snapshot": "version_0_recovered_after_append",
+      "version": 0,
+      "records": 1000,
+      "normal": 1000,
+      "attack": 0,
+      "total_source_bytes": 1899078,
+      "total_destination_bytes": 6807570
+    }
+  ],
+  "history": [
+    {
+      "version": 0,
+      "timestamp": "2026-11-20T15:43:12.029000",
+      "operation": "WRITE"
+    },
+    {
+      "version": 1,
+      "timestamp": "2026-11-20T15:43:22.288000",
+      "operation": "WRITE"
+    }
+  ],
+  "verification": {
+    "version_0_creation": {
+      "missing_rows": 0,
+      "extra_rows": 0,
+      "passed": true
+    },
+    "version_1_after_append": {
+      "missing_rows": 0,
+      "extra_rows": 0,
+      "passed": true
+    },
+    "version_0_time_travel_after_append": {
+      "missing_rows": 0,
+      "extra_rows": 0,
+      "passed": true
+    },
+    "version_numbers": [
+      0,
+      1
+    ],
+    "transaction_log_found": true,
+    "real_records_not_synthetic": true,
+    "status": "passed"
+  }
+}

@@ -1,0 +1,83 @@
+{
+    "status": "complete",
+    "started_utc": "2026-10-28T14:53:55.888238+00:00",
+    "python": "3.11.1",
+    "pyspark": "3.5.5",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "spark_master": "local[2]",
+    "selected_rf_threshold": 0.6,
+    "threshold_source": "Previously selected by script 06 on validation data; fixed in this verification experiment.",
+    "model_parameters": {
+        "logistic_regression": {
+            "maxIter": 30,
+            "regParam": 0.01
+        },
+        "random_forest": {
+            "numTrees": 50,
+            "maxDepth": 10,
+            "seed": 42
+        }
+    },
+    "notes": [
+        "Models are refitted because earlier scripts did not persist fitted models.",
+        "Each model is fitted once; the same fitted model is used for all test groups.",
+        "No test-based threshold or hyperparameter selection.",
+        "Overlapping predictors do not prove identical events.",
+        "Group comparisons are descriptive, not a causal estimate of the effect of overlap.",
+        "Undefined metrics are saved as null/blank.",
+        "Training time measures pipeline fitting, including encoding and LR scaling."
+    ],
+    "predictor_columns": [
+        "dur",
+        "proto",
+        "service",
+        "state",
+        "spkts",
+        "dpkts",
+        "sbytes",
+        "dbytes",
+        "rate",
+        "sttl",
+        "dttl",
+        "sload",
+        "dload",
+        "sloss",
+        "dloss",
+        "sinpkt",
+        "dinpkt",
+        "sjit",
+        "djit",
+        "swin",
+        "stcpb",
+        "dtcpb",
+        "dwin",
+        "tcprtt",
+        "synack",
+        "ackdat",
+        "smean",
+        "dmean",
+        "trans_depth",
+        "response_body_len",
+        "ct_srv_src",
+        "ct_state_ttl",
+        "ct_dst_ltm",
+        "ct_src_dport_ltm",
+        "ct_dst_sport_ltm",
+        "ct_dst_src_ltm",
+        "is_ftp_login",
+        "ct_ftp_cmd",
+        "ct_flw_http_mthd",
+        "ct_src_ltm",
+        "ct_srv_dst",
+        "is_sm_ips_ports"
+    ],
+    "dataset_counts": {
+        "training": 175341,
+        "testing": 82332,
+        "overlapping_test": 8541,
+        "non_overlapping_test": 73791
+    },
+    "finished_utc": "2026-10-28T14:54:50.657952+00:00",
+    "metric_rows": 9,
+    "group_reconciliation": "passed"
+}

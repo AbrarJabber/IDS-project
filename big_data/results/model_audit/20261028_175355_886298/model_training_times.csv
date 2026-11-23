@@ -1,0 +1,3 @@
+model,training_records,pipeline_fit_seconds
+logistic_regression,175341,6.058843100094236
+random_forest,175341,11.2979156000074

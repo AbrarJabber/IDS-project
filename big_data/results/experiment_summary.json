@@ -1,0 +1,184 @@
+{
+    "project": "Big Data Analytics for Network Intrusion Detection Using Apache Spark",
+    "environment": {
+        "operating_system": "Windows-10-10.0.26200-SP0",
+        "python": "3.11.1",
+        "pyspark": "3.5.5",
+        "pandas": "2.2.3",
+        "numpy": "1.26.4",
+        "matplotlib": "3.11.2"
+    },
+    "datasets": {
+        "official_training_records": 175341,
+        "official_testing_records": 82332,
+        "full_dataset_records": 2540047,
+        "full_dataset_columns": 49
+    },
+    "models": {
+        "logistic_regression": {
+            "accuracy": 0.8,
+            "roc_auc": 0.9417,
+            "false_positives": 15335,
+            "false_negatives": 1134
+        },
+        "random_forest_threshold_050": {
+            "accuracy": 0.8122,
+            "attack_precision": 0.7458,
+            "attack_recall": 0.9996,
+            "attack_f1": 0.8543,
+            "roc_auc": 0.9743,
+            "false_positives": 15442,
+            "false_negatives": 17
+        },
+        "random_forest_threshold_060": {
+            "accuracy": 0.8457,
+            "attack_precision": 0.7855,
+            "attack_recall": 0.9901,
+            "attack_f1": 0.876,
+            "roc_auc": 0.9743,
+            "false_positives": 12257,
+            "false_negatives": 449
+        }
+    },
+    "scalability": [
+        {
+            "workers": 1,
+            "fraction": 0.25,
+            "average_training_seconds": 17.4667,
+            "average_total_seconds": 27.202,
+            "repetitions": 3
+        },
+        {
+            "workers": 1,
+            "fraction": 0.5,
+            "average_training_seconds": 11.495,
+            "average_total_seconds": 16.8377,
+            "repetitions": 3
+        },
+        {
+            "workers": 1,
+            "fraction": 0.75,
+            "average_training_seconds": 15.1833,
+            "average_total_seconds": 20.8087,
+            "repetitions": 3
+        },
+        {
+            "workers": 1,
+            "fraction": 1.0,
+            "average_training_seconds": 18.1687,
+            "average_total_seconds": 23.8393,
+            "repetitions": 3
+        },
+        {
+            "workers": 2,
+            "fraction": 0.25,
+            "average_training_seconds": 6.6253,
+            "average_total_seconds": 11.2897,
+            "repetitions": 3
+        },
+        {
+            "workers": 2,
+            "fraction": 0.5,
+            "average_training_seconds": 8.5383,
+            "average_total_seconds": 13.4423,
+            "repetitions": 3
+        },
+        {
+            "workers": 2,
+            "fraction": 0.75,
+            "average_training_seconds": 10.6017,
+            "average_total_seconds": 15.722,
+            "repetitions": 3
+        },
+        {
+            "workers": 2,
+            "fraction": 1.0,
+            "average_training_seconds": 12.3153,
+            "average_total_seconds": 17.3733,
+            "repetitions": 3
+        },
+        {
+            "workers": 4,
+            "fraction": 0.25,
+            "average_training_seconds": 6.2217,
+            "average_total_seconds": 10.8593,
+            "repetitions": 3
+        },
+        {
+            "workers": 4,
+            "fraction": 0.5,
+            "average_training_seconds": 7.3813,
+            "average_total_seconds": 12.2717,
+            "repetitions": 3
+        },
+        {
+            "workers": 4,
+            "fraction": 0.75,
+            "average_training_seconds": 10.5253,
+            "average_total_seconds": 17.3863,
+            "repetitions": 3
+        },
+        {
+            "workers": 4,
+            "fraction": 1.0,
+            "average_training_seconds": 10.3523,
+            "average_total_seconds": 15.3097,
+            "repetitions": 3
+        }
+    ],
+    "cached_aggregation": [
+        {
+            "partitions": 2,
+            "average_seconds": 1.358,
+            "std_seconds": 0.961
+        },
+        {
+            "partitions": 4,
+            "average_seconds": 0.608,
+            "std_seconds": 0.04
+        },
+        {
+            "partitions": 8,
+            "average_seconds": 0.86,
+            "std_seconds": 0.104
+        },
+        {
+            "partitions": 16,
+            "average_seconds": 1.327,
+            "std_seconds": 0.116
+        }
+    ],
+    "end_to_end_processing": [
+        {
+            "partitions": 2,
+            "average_seconds": 2.023,
+            "median_seconds": 1.975,
+            "std_seconds": 0.102
+        },
+        {
+            "partitions": 4,
+            "average_seconds": 1.848,
+            "median_seconds": 1.843,
+            "std_seconds": 0.045
+        },
+        {
+            "partitions": 8,
+            "average_seconds": 2.061,
+            "median_seconds": 2.069,
+            "std_seconds": 0.019
+        },
+        {
+            "partitions": 16,
+            "average_seconds": 2.322,
+            "median_seconds": 2.322,
+            "std_seconds": 0.038
+        }
+    ],
+    "limitations": [
+        "Experiments use local Spark execution, not a distributed multi-node cluster.",
+        "Dataset sampling differs slightly between worker configurations.",
+        "Some measurements were affected by warm-up and execution order.",
+        "The full dataset was used for processing benchmarks, not model evaluation.",
+        "The selected decision threshold was tuned on validation data."
+    ]
+}

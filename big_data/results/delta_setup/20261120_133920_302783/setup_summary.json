@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "purpose": "synthetic installation verification",
+  "python_version": "3.11.1",
+  "spark_version": "3.5.5",
+  "delta_spark_version": "3.3.2",
+  "spark_master": "local[2]",
+  "initial_rows": 5,
+  "current_rows": 7,
+  "version_0_rows": 5,
+  "initial_values_match": true,
+  "historical_values_match": true,
+  "table_path": "C:\\Users\\abdal\\IDS-project\\big_data\\results\\delta_setup\\20261120_133920_302783\\demo_table"
+}

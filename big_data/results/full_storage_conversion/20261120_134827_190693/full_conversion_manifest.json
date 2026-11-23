@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "run_id": "20261120_134827_190693",
+  "python": "3.11.1",
+  "pyspark": "3.5.5",
+  "delta_spark": "3.3.2",
+  "inputs": [
+    {
+      "path": "C:\\Users\\abdal\\IDS-project\\data\\full\\UNSW-NB15_1.csv",
+      "bytes": 168979718
+    },
+    {
+      "path": "C:\\Users\\abdal\\IDS-project\\data\\full\\UNSW-NB15_2.csv",
+      "bytes": 165221021
+    },
+    {
+      "path": "C:\\Users\\abdal\\IDS-project\\data\\full\\UNSW-NB15_3.csv",
+      "bytes": 154588103
+    },
+    {
+      "path": "C:\\Users\\abdal\\IDS-project\\data\\full\\UNSW-NB15_4.csv",
+      "bytes": 97588754
+    }
+  ],
+  "features_file": "C:\\Users\\abdal\\IDS-project\\data\\full\\NUSW-NB15_features.csv",
+  "storage_directory": "C:\\Users\\abdal\\IDS-project\\big_data\\storage_full\\20261120_134827_190693",
+  "notes": [
+    "All 49 columns retain their initial string representation.",
+    "No deduplication, label correction, or imputation is applied.",
+    "Verification includes duplicate multiplicities.",
+    "Source persistence is DISK_ONLY for conversion verification.",
+    "Write timings are single observations, not benchmark results."
+  ],
+  "formats": [
+    {
+      "format": "parquet",
+      "path": "C:\\Users\\abdal\\IDS-project\\big_data\\storage_full\\20261120_134827_190693\\parquet",
+      "records": 2540047,
+      "missing_rows": 0,
+      "extra_rows": 0,
+      "verified": true,
+      "write_seconds_single_observation": 16.72511869999289,
+      "data_bytes": 242278209,
+      "metadata_bytes": 0,
+      "auxiliary_bytes": 1892848,
+      "total_bytes": 244171057
+    },
+    {
+      "format": "delta",
+      "path": "C:\\Users\\abdal\\IDS-project\\big_data\\storage_full\\20261120_134827_190693\\delta",
+      "records": 2540047,
+      "missing_rows": 0,
+      "extra_rows": 0,
+      "verified": true,
+      "write_seconds_single_observation": 35.09852410000167,
+      "data_bytes": 242278209,
+      "metadata_bytes": 23910,
+      "auxiliary_bytes": 1893048,
+      "total_bytes": 244195167
+    }
+  ],
+  "matches_previous_local_count": true,
+  "records": 2540047,
+  "columns": 49,
+  "class_counts": [
+    {
+      "label": "0",
+      "count": 2218764
+    },
+    {
+      "label": "1",
+      "count": 321283
+    }
+  ]
+}

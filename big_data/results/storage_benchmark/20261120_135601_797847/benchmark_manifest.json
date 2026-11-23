@@ -1,0 +1,371 @@
+{
+  "status": "passed",
+  "python": "3.11.1",
+  "pyspark": "3.5.5",
+  "delta_spark": "3.3.2",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "conversion_directory": "C:\\Users\\abdal\\IDS-project\\big_data\\results\\full_storage_conversion\\20261120_134827_190693",
+  "input_records": 2540047,
+  "input_schema": {
+    "type": "struct",
+    "fields": [
+      {
+        "name": "srcip",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "sport",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "dstip",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "dsport",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "proto",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "state",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "dur",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "sbytes",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "dbytes",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "sttl",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "dttl",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "sloss",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "dloss",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "service",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "Sload",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "Dload",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "Spkts",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "Dpkts",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "swin",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "dwin",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "stcpb",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "dtcpb",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "smeansz",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "dmeansz",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "trans_depth",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "res_bdy_len",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "Sjit",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "Djit",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "Stime",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "Ltime",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "Sintpkt",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "Dintpkt",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "tcprtt",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "synack",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "ackdat",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "is_sm_ips_ports",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "ct_state_ttl",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "ct_flw_http_mthd",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "is_ftp_login",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "ct_ftp_cmd",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "ct_srv_src",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "ct_srv_dst",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "ct_dst_ltm",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "ct_src_ltm",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "ct_src_dport_ltm",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "ct_dst_sport_ltm",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "ct_dst_src_ltm",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "attack_cat",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      },
+      {
+        "name": "label",
+        "type": "string",
+        "nullable": true,
+        "metadata": {}
+      }
+    ]
+  },
+  "csv_inputs": [
+    "C:\\Users\\abdal\\IDS-project\\data\\full\\UNSW-NB15_1.csv",
+    "C:\\Users\\abdal\\IDS-project\\data\\full\\UNSW-NB15_2.csv",
+    "C:\\Users\\abdal\\IDS-project\\data\\full\\UNSW-NB15_3.csv",
+    "C:\\Users\\abdal\\IDS-project\\data\\full\\UNSW-NB15_4.csv"
+  ],
+  "format_paths": {
+    "parquet": "C:\\Users\\abdal\\IDS-project\\big_data\\storage_full\\20261120_134827_190693\\parquet",
+    "delta": "C:\\Users\\abdal\\IDS-project\\big_data\\storage_full\\20261120_134827_190693\\delta"
+  },
+  "delta_version": 0,
+  "seed": 42,
+  "warmups_per_query_format": 1,
+  "measured_repetitions_per_query_format": 6,
+  "format_orders": [
+    [
+      "parquet",
+      "delta",
+      "csv"
+    ],
+    [
+      "csv",
+      "delta",
+      "parquet"
+    ],
+    [
+      "parquet",
+      "csv",
+      "delta"
+    ],
+    [
+      "delta",
+      "csv",
+      "parquet"
+    ],
+    [
+      "csv",
+      "parquet",
+      "delta"
+    ],
+    [
+      "delta",
+      "parquet",
+      "csv"
+    ]
+  ],
+  "timing_scope": "Reader construction through completed aggregate collect; Spark startup, verification, and result-file writing excluded.",
+  "cache_policy": "No explicit DataFrame caching. OS and internal metadata caches are not cleared. Warmed single-session experiment.",
+  "notes": [
+    "Full dataset is stored as strings in all formats.",
+    "Identical numeric casts are applied within every query.",
+    "Natural input partitioning can differ between formats.",
+    "Input-size checks do not constitute file-content hashes."
+  ],
+  "spark_settings": {
+    "spark.sql.shuffle.partitions": "8",
+    "spark.sql.adaptive.enabled": "true",
+    "spark.sql.ansi.enabled": "false",
+    "spark.sql.files.maxPartitionBytes": "134217728b",
+    "spark.sql.parquet.filterPushdown": "true"
+  },
+  "spark_master": "local[4]",
+  "measured_runs": 36
+}

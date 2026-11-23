@@ -1,0 +1,5 @@
+# Delta Lake append and historical snapshot experiment
+
+The official UNSW-NB15 training dataset (175,341 records) supplied genuine network records for a small derived Delta table. Version 0 contained **1,000 rows** (1,000 normal; 0 attack). A disjoint batch of **250 real records** was appended without modifying or overwriting the original source. Version 1 contained **1,250 rows** (1,250 normal; 0 attack). Reading **version 0 after the append** returned exactly the original **1,000 records**, confirming historical snapshot access. Schema and bidirectional `exceptAll()` comparisons confirmed every value and duplicate occurrence for both versions. The Delta transaction log recorded versions 0 and 1.
+
+**Interpretation:** The experiment demonstrates append operations and version-based historical reads on genuine UNSW-NB15 rows, complementing the separate CSV–Parquet–Delta query benchmark. It does not measure update throughput, concurrent transactions, or multi-node execution. Historical access depends on retaining the underlying data files.

@@ -1,0 +1,18 @@
+[
+  {
+    "label": "1",
+    "records": 58184,
+    "total_source_bytes": 1772280092,
+    "total_destination_bytes": 1424785902,
+    "valid_source_bytes": 58184,
+    "valid_destination_bytes": 58184
+  },
+  {
+    "label": "0",
+    "records": 1436890,
+    "total_source_bytes": 8930182168,
+    "total_destination_bytes": 90981541296,
+    "valid_source_bytes": 1436890,
+    "valid_destination_bytes": 1436890
+  }
+]

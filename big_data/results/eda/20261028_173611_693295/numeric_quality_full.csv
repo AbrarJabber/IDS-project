@@ -1,0 +1,4 @@
+dataset,feature,invalid_cast,nan,infinite,negative
+full,dur,0,0,0,0
+full,sbytes,0,0,0,0
+full,dbytes,0,0,0,0

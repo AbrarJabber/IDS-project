@@ -1,0 +1,24 @@
+{
+  "version_0_creation": {
+    "missing_rows": 0,
+    "extra_rows": 0,
+    "passed": true
+  },
+  "version_1_after_append": {
+    "missing_rows": 0,
+    "extra_rows": 0,
+    "passed": true
+  },
+  "version_0_time_travel_after_append": {
+    "missing_rows": 0,
+    "extra_rows": 0,
+    "passed": true
+  },
+  "version_numbers": [
+    0,
+    1
+  ],
+  "transaction_log_found": true,
+  "real_records_not_synthetic": true,
+  "status": "passed"
+}

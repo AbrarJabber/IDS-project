@@ -1,0 +1,1244 @@
+[
+  {
+    "proto": "udp",
+    "label": "1",
+    "records": 223750,
+    "total_source_bytes": 37326472,
+    "total_destination_bytes": 3402213,
+    "valid_source_bytes": 223750,
+    "valid_destination_bytes": 223750
+  },
+  {
+    "proto": "mux",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 54800,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "dcn",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "sdrp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "mhrp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ipv6-opts",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "kryptolan",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "sat-mon",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "visa",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "wb-expak",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "gmtp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "pnni",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "stp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "arp",
+    "label": "0",
+    "records": 10064,
+    "total_source_bytes": 829566,
+    "total_destination_bytes": 604672,
+    "valid_source_bytes": 10064,
+    "valid_destination_bytes": 10064
+  },
+  {
+    "proto": "tcp",
+    "label": "1",
+    "records": 58184,
+    "total_source_bytes": 1772280092,
+    "total_destination_bytes": 1424785902,
+    "valid_source_bytes": 58184,
+    "valid_destination_bytes": 58184
+  },
+  {
+    "proto": "ospf",
+    "label": "0",
+    "records": 4520,
+    "total_source_bytes": 1723648,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 4520,
+    "valid_destination_bytes": 4520
+  },
+  {
+    "proto": "ospf",
+    "label": "1",
+    "records": 3278,
+    "total_source_bytes": 26663500,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 3278,
+    "valid_destination_bytes": 3278
+  },
+  {
+    "proto": "chaos",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "xns-idp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "tp++",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "il",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "i-nlsp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "skip",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "wsn",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "smp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "uti",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "isis",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "sps",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "unas",
+    "label": "1",
+    "records": 16202,
+    "total_source_bytes": 3240400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 16202,
+    "valid_destination_bytes": 16202
+  },
+  {
+    "proto": "swipe",
+    "label": "1",
+    "records": 262,
+    "total_source_bytes": 34900,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 262,
+    "valid_destination_bytes": 262
+  },
+  {
+    "proto": "mobile",
+    "label": "1",
+    "records": 262,
+    "total_source_bytes": 34900,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 262,
+    "valid_destination_bytes": 262
+  },
+  {
+    "proto": "igp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 24660,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "leaf-2",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "xtp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ddp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ipv6-frag",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "bna",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "narp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "cftp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "sat-expak",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "mtp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ax.25",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "compaq-peer",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "iplt",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "udt",
+    "label": "0",
+    "records": 8,
+    "total_source_bytes": 1932,
+    "total_destination_bytes": 1660,
+    "valid_source_bytes": 8,
+    "valid_destination_bytes": 8
+  },
+  {
+    "proto": "rtp",
+    "label": "0",
+    "records": 7,
+    "total_source_bytes": 62958,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 7,
+    "valid_destination_bytes": 7
+  },
+  {
+    "proto": "ip",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 24660,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "trunk-1",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "rdp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "rvd",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 54800,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ipcv",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "pvp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "vines",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "tcf",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "larp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ipip",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "a/n",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "scps",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "snp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "vrrp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "zero",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "l2tp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "fire",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "crudp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "pipe",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "fc",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "tcp",
+    "label": "0",
+    "records": 1436890,
+    "total_source_bytes": 8930182168,
+    "total_destination_bytes": 90981541296,
+    "valid_source_bytes": 1436890,
+    "valid_destination_bytes": 1436890
+  },
+  {
+    "proto": "pim",
+    "label": "1",
+    "records": 262,
+    "total_source_bytes": 87400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 262,
+    "valid_destination_bytes": 262
+  },
+  {
+    "proto": "st2",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 49320,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "egp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 24660,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "cbt",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 49320,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "nvp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 24660,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "bbn-rcc",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 24660,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "3pc",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ipv6",
+    "label": "1",
+    "records": 272,
+    "total_source_bytes": 39010,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 272,
+    "valid_destination_bytes": 272
+  },
+  {
+    "proto": "idrp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "tlsp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ippc",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "nsfnet-igp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "eigrp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ifmp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ipx-n-ip",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "crtp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "sep",
+    "label": "1",
+    "records": 260,
+    "total_source_bytes": 40192,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 260,
+    "valid_destination_bytes": 260
+  },
+  {
+    "proto": "emcon",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 24660,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "pup",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 24660,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "hmp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "prm",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "trunk-2",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "merit-inp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ipv6-route",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "br-sat-mon",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "iso-ip",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ttp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "sprite-rpc",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "micp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "aes-sp3-d",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "qnx",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ipcomp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "pgm",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ddx",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "sm",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ptp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "icmp",
+    "label": "0",
+    "records": 524,
+    "total_source_bytes": 285512,
+    "total_destination_bytes": 958710,
+    "valid_source_bytes": 524,
+    "valid_destination_bytes": 524
+  },
+  {
+    "proto": "igmp",
+    "label": "0",
+    "records": 64,
+    "total_source_bytes": 24486,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 64,
+    "valid_destination_bytes": 64
+  },
+  {
+    "proto": "sun-nd",
+    "label": "1",
+    "records": 262,
+    "total_source_bytes": 34900,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 262,
+    "valid_destination_bytes": 262
+  },
+  {
+    "proto": "ipnip",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 24660,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ggp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 24660,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "xnet",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 24660,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "leaf-1",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "netblt",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "mfe-nsp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "idpr-cmtp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "rsvp",
+    "label": "1",
+    "records": 274,
+    "total_source_bytes": 54800,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 274,
+    "valid_destination_bytes": 274
+  },
+  {
+    "proto": "any",
+    "label": "1",
+    "records": 411,
+    "total_source_bytes": 82200,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 411,
+    "valid_destination_bytes": 411
+  },
+  {
+    "proto": "cpnx",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "cphb",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "wb-mon",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "vmtp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "encap",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "etherip",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "pri-enc",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "aris",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "sccopmce",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "ib",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "udp",
+    "label": "0",
+    "records": 766685,
+    "total_source_bytes": 210611524,
+    "total_destination_bytes": 116058009,
+    "valid_source_bytes": 766685,
+    "valid_destination_bytes": 766685
+  },
+  {
+    "proto": "sctp",
+    "label": "1",
+    "records": 1525,
+    "total_source_bytes": 35871092,
+    "total_destination_bytes": 447704,
+    "valid_source_bytes": 1525,
+    "valid_destination_bytes": 1525
+  },
+  {
+    "proto": "argus",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 24660,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "irtp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "iso-tp4",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "idpr",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "gre",
+    "label": "1",
+    "records": 324,
+    "total_source_bytes": 56572,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 324,
+    "valid_destination_bytes": 324
+  },
+  {
+    "proto": "esp",
+    "label": "0",
+    "records": 2,
+    "total_source_bytes": 400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 2,
+    "valid_destination_bytes": 2
+  },
+  {
+    "proto": "ipv6-no",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "secure-vmtp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "dgp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "iatp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  },
+  {
+    "proto": "srp",
+    "label": "1",
+    "records": 137,
+    "total_source_bytes": 27400,
+    "total_destination_bytes": 0,
+    "valid_source_bytes": 137,
+    "valid_destination_bytes": 137
+  }
+]

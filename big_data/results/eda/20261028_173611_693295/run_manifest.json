@@ -1,0 +1,141 @@
+{
+    "status": "complete",
+    "started_utc": "2026-10-28T14:36:11.693612+00:00",
+    "python": "3.11.1",
+    "spark": "3.5.5",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "workers": 2,
+    "full_dataset_included": true,
+    "inputs": [
+        {
+            "path": "C:\\Users\\abdal\\IDS-project\\data\\raw\\UNSW_NB15_training-set.csv",
+            "bytes": 32293018
+        },
+        {
+            "path": "C:\\Users\\abdal\\IDS-project\\data\\raw\\UNSW_NB15_testing-set.csv",
+            "bytes": 15380800
+        },
+        {
+            "path": "C:\\Users\\abdal\\IDS-project\\data\\full\\UNSW-NB15_1.csv",
+            "bytes": 168979718
+        },
+        {
+            "path": "C:\\Users\\abdal\\IDS-project\\data\\full\\UNSW-NB15_2.csv",
+            "bytes": 165221021
+        },
+        {
+            "path": "C:\\Users\\abdal\\IDS-project\\data\\full\\UNSW-NB15_3.csv",
+            "bytes": 154588103
+        },
+        {
+            "path": "C:\\Users\\abdal\\IDS-project\\data\\full\\UNSW-NB15_4.csv",
+            "bytes": 97588754
+        },
+        {
+            "path": "C:\\Users\\abdal\\IDS-project\\data\\full\\NUSW-NB15_features.csv",
+            "bytes": 4044
+        }
+    ],
+    "notes": [
+        "EDA is descriptive; do not tune models on test findings.",
+        "Approximate quantile accuracy is 10000.",
+        "No raw records are removed or modified.",
+        "Full-data packet columns differ from reduced splits.",
+        "Null attack_cat for normal records can be structural."
+    ],
+    "spark_settings": {
+        "spark.sql.shuffle.partitions": "200",
+        "spark.sql.adaptive.enabled": "true",
+        "spark.sql.ansi.enabled": "false"
+    },
+    "duplicate_audit": {
+        "within_split": [
+            {
+                "dataset": "train",
+                "records": 175341,
+                "duplicate_records_excluding_id": 67601,
+                "unique_predictor_vectors": 101040,
+                "extra_predictor_duplicates": 74301,
+                "conflicting_predictor_groups": 229
+            },
+            {
+                "dataset": "test",
+                "records": 82332,
+                "duplicate_records_excluding_id": 26387,
+                "unique_predictor_vectors": 53946,
+                "extra_predictor_duplicates": 28386,
+                "conflicting_predictor_groups": 6
+            }
+        ],
+        "cross_split": {
+            "shared_predictor_vectors": 1302,
+            "train_rows_with_shared_predictors": 10279,
+            "test_rows_with_shared_predictors": 8541,
+            "shared_vectors_with_conflicting_labels": 279
+        },
+        "predictor_columns": [
+            "ackdat",
+            "ct_dst_ltm",
+            "ct_dst_sport_ltm",
+            "ct_dst_src_ltm",
+            "ct_flw_http_mthd",
+            "ct_ftp_cmd",
+            "ct_src_dport_ltm",
+            "ct_src_ltm",
+            "ct_srv_dst",
+            "ct_srv_src",
+            "ct_state_ttl",
+            "dbytes",
+            "dinpkt",
+            "djit",
+            "dload",
+            "dloss",
+            "dmean",
+            "dpkts",
+            "dtcpb",
+            "dttl",
+            "dur",
+            "dwin",
+            "is_ftp_login",
+            "is_sm_ips_ports",
+            "proto",
+            "rate",
+            "response_body_len",
+            "sbytes",
+            "service",
+            "sinpkt",
+            "sjit",
+            "sload",
+            "sloss",
+            "smean",
+            "spkts",
+            "state",
+            "stcpb",
+            "sttl",
+            "swin",
+            "synack",
+            "tcprtt",
+            "trans_depth"
+        ],
+        "method": "SHA-256 of ordered typed predictor JSON; null fields included; baseline service cleaning.",
+        "interpretation": "Shared predictor values do not prove identical captured network events. No records were removed."
+    },
+    "datasets": [
+        {
+            "dataset": "train",
+            "records": 175341,
+            "columns": 45
+        },
+        {
+            "dataset": "test",
+            "records": 82332,
+            "columns": 45
+        },
+        {
+            "dataset": "full",
+            "records": 2540047,
+            "columns": 49
+        }
+    ],
+    "finished_utc": "2026-10-28T14:36:57.456007+00:00"
+}
